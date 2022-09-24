@@ -1,0 +1,32 @@
+.collapse {
+    justify-content:flex-end;
+}
+
+.container-fluid {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+header { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/ba1.jpg);
+    background-size: 100% 100%;
+    min-height: 90vh;
+}
+
+.tarjeta {
+   background-color: transparent;
+} 
+
+.btn-success {
+    background-color: rgb(7, 187, 7);
+}
+
+.title1 {
+    font-size: medium;
+}
+
+.title2 {
+    font-size: xx-large;
+}
+
+
