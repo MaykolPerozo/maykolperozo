@@ -1,4 +1,7 @@
-const resumen = () => {
+const resumen = (event) => {
+    console.log(event);
+    event.preventDefault();
+    event.stopPropagation();
     const ticket = 200;
     const nombre = document.getElementById('nombre').value
     const apellido = document.getElementById('apellido').value
@@ -16,9 +19,9 @@ const resumen = () => {
 
         document.getElementById('pago').innerText = total
    } 
+}
 
 const botonBorrar = () => {
     document.getElementById("formularioVenta").reset();
     document.getElementById('pago').innerText = "";
 }
-};
