@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.collapse {
+    justify-content:flex-end;
+}
+
+.container-fluid {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.header { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/ba1.jpg);
+    background-size: 100% 100%;
+    min-height: 90vh;
+}
+
+.tarjeta {
+   background-color: transparent;
+} 
+
+.btn-success {
+    background-color: rgb(7, 187, 7);
+}
+
+
+.title1 {
+    font-size: medium;
+}
+
+.title2 {
+    font-size: xx-large;
+}
+
+.card-img-top {
+    height: 20rem;
+}
+
+.container-row {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-secc {
+    padding-top: 3rem;
+}
+
+.container-secc .col-md-6 {
+    background-color: rgb(43, 43, 43);
+}
+
+.container-secc .card-title {
+    font-size: x-large;
+}
+
+.container-title{
+    text-align: center;
+    padding: 10px;
+}
+
+.container-inp {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.inicio-p p{
+    text-align: center;
+    padding: 2px;
+}
+
+.parrafo {
+    font-size: small;
+}
+
+.form-floating {
+    padding-top: 1rem;
+}
+
+ul li{
+   list-style:none;
+   padding: 1rem 2rem;
+}
+
+.container-footer{
+    border: solid pink 1px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    color: white;
+    background-color: #1c455b;
+    margin-top: 2rem; 
+}
+
+.div-footer ul{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/*tickets*/
+
+.cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 2rem;
+}
+
+.ticket{
+    width: 310px;
+    height: 280px;
+    border: 2px solid;
+    border-radius: 0;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center
+}
+
+.ticket h1,h5,h4,p {
+    padding: 0.6rem 0;
+}
+
+.ticket p{
+    color: #636666;
+}
+
+.encabezadoVenta{
+    text-align: center;
+}
+
+.formularioVenta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+input, label, select{
+   margin: 10px 0;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.botonVenta{
+    width: 468px;
+    margin: 5px;
+    font-size: 1.2rem;
+
+}
+
+.pagar{
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(210, 230, 252);
+}
+
+.form-select{
+    width: 468px;
+    
+}
