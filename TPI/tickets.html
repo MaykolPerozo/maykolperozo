@@ -60,7 +60,7 @@
                 <h1>VALOR DE TICKET $200</h1>
             </div>
             <div class="formVenta">
-                <form class="formularioVenta" id="formularioVenta" action="#" onsubmit="resumen()">
+                <form class="formularioVenta" onsubmit="resumen(event)" id="formularioVenta">
                     <div class="row g-3">
                         <div class="col">
                         <input type="text" id="nombre" class="form-control" placeholder="Nombre" aria-label="Nombre">
@@ -77,11 +77,11 @@
                     </div>
 
                     <div class="row g-3">
-                        <div class="col-md-6">
+                        <div class="col">
                             <label for="inputCantidad" class="form-label">Cantidad</label>
                             <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
                         </div>
-                        <div class="col-md-4 select" >
+                        <div class="col" >
                             <label for="inputCategoria" class="form-label">Categoria</label>
                             <select id="inputCategoria" class="form-select">
                             <option value="0.8" selected>Estudiante</option>
@@ -100,11 +100,11 @@
                         </div>
                     </div>
 
-                    <div class="botones">
-                        <div>
-                            <button type="submit" id="borrar" class="btn botonVenta btn-success" onclick="botonBorrar()">Borrar</button>
+                    <div class="botones row g-3">
+                        <div class="col">
+                            <button type="button" id="borrar" class="btn botonVenta btn-success" onclick="botonBorrar()">Borrar</button>
                         </div>
-                        <div>
+                        <div class="col">
                             <button type="submit" id="resumen-id" class="btn botonVenta btn-success">Resumen</button>
                         </div>
                     </div>
