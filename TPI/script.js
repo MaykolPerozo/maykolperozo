@@ -15,13 +15,10 @@ const resumen = () => {
         const total = subTotal - descuento
 
         document.getElementById('pago').innerText = total
-
    } 
-   window.scrollY(0);
-}
 
 const botonBorrar = () => {
     document.getElementById("formularioVenta").reset();
     document.getElementById('pago').innerText = "";
 }
-
+};
