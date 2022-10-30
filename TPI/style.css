@@ -13,7 +13,7 @@
     margin-right: 5rem;
 }
 
-header { 
+.header { 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/ba1.jpg);
     background-size: 100% 100%;
     min-height: 90vh;
@@ -101,4 +101,76 @@ ul li{
     align-items:center;
     flex-wrap: wrap;
     width: 100%;
+}
+
+/*tickets*/
+
+.cards{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 2rem;
+}
+
+.ticket{
+    width: 310px;
+    height: 280px;
+    border: 2px solid;
+    border-radius: 0;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center
+}
+
+.ticket h1,h5,h4,p {
+    padding: 0.6rem 0;
+}
+
+.ticket p{
+    color: #636666;
+}
+
+.encabezadoVenta{
+    text-align: center;
+}
+
+.formularioVenta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+input, label, select{
+   margin: 10px 0;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.botonVenta{
+    width: 468px;
+    margin: 5px;
+    font-size: 1.2rem;
+
+}
+
+.pagar{
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(210, 230, 252);
+}
+
+.form-select{
+    width: 468px;
+    
 }
